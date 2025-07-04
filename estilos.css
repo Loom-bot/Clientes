@@ -1,0 +1,42 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.upload, .qr {
+  margin: 20px 0;
+  background-color: #48c9b0;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+input[type="file"], input[type="text"], button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+button {
+  background-color: #f7b733;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #999;
+}
