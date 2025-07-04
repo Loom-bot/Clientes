@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tu Portal de Archivos</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <h1>📂 Bienvenido al Portal de Archivos</h1>
+  </header>
+
+  <main>
+    <section class="upload">
+      <h2>Sube tus documentos</h2>
+      <input type="file" multiple />
+    </section>
+
+    <section class="qr">
+      <h2>Genera tu código QR</h2>
+      <input type="text" placeholder="Escribe el texto o enlace..." />
+      <button>Generar QR</button>
+      <div id="qrResultado"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho con 💙 para ti</p>
+  </footer>
+</body>
+</html>
