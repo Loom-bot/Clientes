@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #ED1C24; /* Manzana roja */
+}
+
+.lista-archivos {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.lista-archivos li {
+  margin: 15px 0;
+  font-size: 1.1em;
+}
+
+.lista-archivos a {
+  text-decoration: none;
+  color: #6B3FA0; /* Uva */
+  font-weight: bold;
+}
+
+.lista-archivos a:hover {
+  color: #F7931E; /* Naranja frutal */
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f2f2f2;
+  font-size: 0.9em;
+  color: #777;
+}
